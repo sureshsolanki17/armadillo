@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- main css  -->
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        .Partners-backimg{
+            background-image: url(images/patnerbackimg.png);
+            background-size: cover;
+            height: 1000px;
+        }
+        #hero-form{
+            border: 1px solid #FF7043;
+            padding: 2% 5% 4% 5%;
+        }
+        .input-data{
+            border: 1px solid #000;
+            border-radius: 8px;
+            padding: 20px 20px;
+            margin-bottom: 1.5rem;
+        }
+        #hero-form input{
+            width: 100%;
+        }
+        #button-submit-form{
+            font-size: 20px;
+            border: none;
+            color: #fff;
+            border-radius: 8px;
+            background-color: #FF7043;
+            padding: 20px 20px 20px 20px;
+            box-shadow: rgba(235, 130, 44, 0.87) 0px 25px 50px -12px;
+            transition: all .4s ease;
+        }
+        #button-submit-form:hover{
+            background-color: #3F3350;
+        }
+    </style>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- icon font awosam -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Armadillo</title>
+</head>
+<body>
+    <nav id="sticky-nav-bar" class="navbar navbar-expand-lg navgaation" style="background-color: #FFFEF9;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pt-4 pb-4 nav-left row" id="navbarSupportedContent">
+                <div class="col-md-5">
+                    <ul class="navbar-nav me-auto  mb-lg-0">
+                        <li class="nav-item ps-5 plans-drop">
+                            <a class="nav-link" href="Plans.html">Plans</a>
+                            <div class="plans-dropdown" >
+                                <div class="d-flex mb-5">
+                                    <div>
+                                        <i style="font-size: 72px;" class="fas fa-home pe-3"></i>
+                                    </div>
+                                    <div>
+                                        <h5>Homeowners</h5>
+                                        <p>Hassle-free home ownership.</p>
+                                        <button class="nav-btn-an">Subscribe</button>
+                                    </div>
+                                </div>    
+                                <div class="d-flex">
+                                    <div>
+                                        <i style="font-size: 72px;" class="fas fa-key pe-4"></i>
+                                    </div>
+                                    <div>
+                                        <h5>Homeowners</h5>
+                                        <p>Hassle-free home ownership.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ps-5 plans-drop">
+                            <a class="nav-link" href="#">Partners</a>
+                            <div class="plans-dropdown" >
+                                <div class="d-flex mb-4">
+                                    <div>
+                                        <i style="font-size: 72px;" class="fas fa-home pe-3"></i>
+                                    </div>
+                                    <div>
+                                        <h5>Homeowners</h5>
+                                        <p>Hassle-free home ownership.</p>
+                                    </div>
+                                </div>    
+                                <div class="d-flex mb-4">
+                                    <div>
+                                        <i style="font-size: 72px;" class="fas fa-key pe-4"></i>
+                                    </div>
+                                    <div>
+                                        <h5>Homeowners</h5>
+                                        <p>Hassle-free home ownership.</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex ">
+                                    <div>
+                                        <i style="font-size: 72px;" class="fas fa-home pe-3"></i>
+                                    </div>
+                                    <div>
+                                        <h5>Homeowners</h5>
+                                        <p>Hassle-free home ownership.</p>
+                                    </div>
+                                </div>    
+                            </div>
+                        </li>
+                        <li class="nav-item ps-5">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item ps-5 comapny-drop">
+                            <a class="nav-link">Comapny</a>
+                            <div class="comapny-dropdown" >
+                                <div class="d-flex">
+                                    <div>
+                                        <h5>About</h5>
+                                        <p class="mb-4">Hassle-free home ownership.</p>
+                                    </div>
+                                </div>    
+                                <div class="d-flex">
+                                    <div>
+                                        <h5>FAQ</h5>
+                                        <p class="mb-4">Hassle-free home ownership.</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div>
+                                        <h5>Contact</h5>
+                                        <p class="mb-4">Drop us a line if you have any questions. We are happy to chat with you!</p>
+                                    </div>
+                                </div>    
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <a href="index.html"><img class="img-fluid" src="images/bigtext-logo.svg" alt=""></a>
+                </div>
+                <div class="col-md-5 d-flex justify-content-end pe-5">
+                    <form class="d-flex">
+                        <button class="nav-btn me-4" type="submit">Search</button>
+                        <button class="nav-btn me-4" type="submit">Log In</button>
+                        <button id="button-none" class="nav-btn-an nav-btn-an-d me-4" type="submit">See Plans</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- hero section -->
+    <div style="background-color: #FFFEF9; padding-top: 4%;">
+        <div class="container Partners-backimg">
+            <div class="row justify-content-between">
+                <div class="col-5">
+                    <div>
+                        <div>
+                            <i class="far fa-hand-spock fs-1"></i>
+                            <h5 class=""><span>Join the Armadillo Family</span></h5>
+                        </div>
+                        <h1 class="mt-5" style="font-size: 54px;">
+                            Enhance your business with Armadillo.
+                        </h1>
+                        <p class="mt-4 mb-5 card-p">
+                             Introduce your clients to a new kind of home warranty. Hassle-free and uncomplicated.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-5 bg-white" id="hero-form">
+                    <h2 class="mt-4 mb-4">Get in touch.</h2>
+                    <form action="" method="get" id="form-inputs">
+                        <div>
+                            <input type="text" class="input-data" placeholder="Full Name*"> <br>
+                        </div>
+                        <div>
+                            <input type="email" class="input-data" name="your email" id="" placeholder="Email*"> <br>
+                        </div>    
+                        <div>
+                            <input type="number" class="input-data" name="mobile number" id="" placeholder="Phone Number"> <br>
+                        </div>
+                        <div>
+                            <textarea class="input-data" style="width: 100%; height: 200px;" placeholder="Commenets"></textarea>
+                        </div>
+                        <div>
+                            <a href="#"><button id="button-submit-form">Partner with Armadillo &nbsp<i class="fas fa-chevron-right"></i></button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-flui">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <h1 class="mb-5 text-white">Welcome to a new <br> age of home warranty.</h1>
+                        <img class="footer-img1 img-fluid" src="images/footer-lockup@2x.png" alt="">
+                        <div class="footer-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-8 d-flex flex-column">
+                       <div>
+                            <button class="footer-btn">See Plans   &nbsp <i class="fas fa-chevron-right"></i></button>
+                       </div>
+                        <div class="d-flex mt-5 pt-4 d-flex justify-content-between">
+                            <div>
+                                <ul class="footer-list">
+                                    <li><a class="footer-titel" href="#">Plans</a></li>
+                                    <li><a href="#">Homeowners</a></li>
+                                    <li><a href="#">Landlords</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="footer-list">
+                                    <li><a class="footer-titel" href="#">Partners</a></li>
+                                    <li><a href="#">Real Estate Pros</a></li>
+                                    <li><a href="#">Insurance Agents</a></li>
+                                    <li><a href="#">Partner Programs</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="footer-list">
+                                    <li><a class="footer-titel" href="#">Armadillo</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="footer-list">
+                                    <li><a class="footer-titel" href="#">Contact</a></li>
+                                    <li>For Service: (844) 584 1008</li>
+                                    <li>All Other: (502) 653 2011</li>
+                                    <li><a href="#">info@armadillo.one</a></li>
+                                </ul>
+                            </div>
+                            <div class="">
+                                <form class="d-flex flex-column float-end">
+                                    <button class="footer-btn2 mb-4" type="submit">Search</button>
+                                    <button class="footer-btn2" type="submit">Log In</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- js -->
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
